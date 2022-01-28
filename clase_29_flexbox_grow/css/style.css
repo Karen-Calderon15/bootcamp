@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ff7300;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.item {
+  background-color: #19a3ff;
+  box-sizing: border-box;
+  width: 100px; /*Ignorado*/
+  height: 150px;
+  color: white;
+  font-size: xx-large;
+  /* Tamaño base -> row (width) column (height) */
+  flex-basis: 200px;
+  /*Cuanto voy a crecer*/
+  flex-grow: 1;
+}
+.item:nth-child(even) {
+  background-color: violet;
+}
+.item:nth-child(2){
+    flex-grow: 3;
+}
+
+/* 
+Espacio Total:800px
+
+Espacio disponible: 800px-2(200px)=400px
+Sumatoria del flex-grow: 4;
+Unidad de crecimiento:400px/6=66.7px
+
+Item 1:
+flex-grow o factor de crecimiento:3
+¿Cuanto crecio= factor de crecimiento * Unidad de Crecimiento ?
+Cuanto crecio= 3*66.6px
+
+¿Cual es mi tamaño actual?
+Tamaño base + Cuanto creci
+100px + 199.8px:
+299.8px
+ */

@@ -1,0 +1,16 @@
+/* div, select {
+    margin: opx;
+}
+input:checked + label {
+    color: #ff0000;
+}
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px #ff4500;
+}
+input [type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #ff69b4;
+}
+option:checked {
+    box-shadow: 0 0 0 3px #00ff00;
+    color: #ff0000;
+} */

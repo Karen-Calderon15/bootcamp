@@ -1,0 +1,7 @@
+:root {
+    --color-primary:rgb(22, 199, 243);
+    --color-secondary: rgb(216, 58, 255) ;
+    --color-danger:#ff5555;
+    --color-info:#007bee;
+    --color-success:#a3da3e;
+}

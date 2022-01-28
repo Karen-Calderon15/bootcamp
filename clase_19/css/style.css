@@ -1,0 +1,12 @@
+/* div#pagina div {
+    background-color: #0000ff;
+} */
+/* #pagina > div {
+    border: 2px solid #00f;
+} */
+/* div.articulo span + span {
+    color: #00f;
+} */
+div.articulo strong ~ span {
+    color: #00f;
+}

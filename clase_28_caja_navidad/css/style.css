@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chewy', sans-serif;
+}
+body {
+    background:#333;
+    padding-top: 10%;
+}
+.sorpresa{
+    width: 410px;
+    margin: 10% auto;
+    position: relative;
+}
+.tapa, .caja{
+    position: absolute;
+}
+.papel{
+    background: radial-gradient(
+        circle,#ffffff 10%, #0d9ff3 20%);
+    background-size: 40px 40px;
+    box-shadow: 1px 2px 3px #000000a4;
+}
+.tapa{
+    width: 410px;
+    height: 70px;
+    /*Posiciones*/ 
+    z-index: 2;
+    left:0;
+    /* animaciones */
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.caja{
+    width: 400px;
+    height: 300px;
+     /*Posiciones*/ 
+    top:70px;
+    left: 4px;
+}
+.frase {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+     /* animaciones */
+    transition-property: transform;
+    transition-duration: 2s;
+    animation-duration: 3s;
+    animation: slinder;
+    text-shadow:1px 1px 2px #0d9ff3;
+}
+.liston{
+    position: absolute;
+    box-shadow: 1px 2px 3px #4444449d;
+    opacity: 0.8; 
+}
+.dorado {
+    background-color: #dc143c;     
+}
+.plateado {
+    background-color: #929292;
+}
+/* Posiciones absolutas*/
+.tapa > .liston {
+    width: 70px;
+    height: 70px;
+    left: 165.5px;
+}
+.caja > .liston:nth-child(1){
+    width: 70px;
+    height: 100%;
+    z-index: 1;
+    left: 165.5px;
+}
+.caja > .liston:nth-child(2){
+    width: 100%;
+    height:  70px;
+    z-index: 0;
+    top: 100px;
+}
+.frase {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
+
+/* Animaciones */
+
+.sorpresa:hover .tapa{
+    transform: translateX(-300px) rotateZ(-40deg); 
+}
+.sorpresa:hover .frase{
+    transform: translateY(-20px); 
+    background-image: url(../images/floaties-confeti-gifanimados-09[5]\ \(1\).gif);
+}

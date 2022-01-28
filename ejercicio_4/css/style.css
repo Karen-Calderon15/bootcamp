@@ -1,0 +1,12 @@
+*{
+    font-size:x-large ;
+}
+#uno li:nth-child(even) {
+    text-decoration: underline;
+}
+#uno li:nth-child(odd) {
+    text-decoration: line-through;
+}
+#dos li:nth-child(4n+4){
+    color: green;
+}

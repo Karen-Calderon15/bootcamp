@@ -1,0 +1,23 @@
+input {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px #808080;
+}
+.w-1 {
+    width: 100px;
+}
+.w-2 {
+    width: 150px;
+}
+.w-3 {
+    width: 200px;
+}
+.h-1 {
+    height: 25px;
+}
+.h-2 {
+    height: 50px;
+}
+.h-3 {
+    height: 75px;
+}

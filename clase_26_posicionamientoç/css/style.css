@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10%;
+    background-color: #dcdcdc;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#caja1 {
+    background-color: #1e90ff;
+}
+#caja2 {
+    background-color: #daa520;
+    opacity: 0;
+    /* visibility: hidden; */
+
+} 
+#caja3 {
+    background-color: #cd5c5c;
+}

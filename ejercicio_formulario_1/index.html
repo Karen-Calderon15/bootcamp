@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Fruktur&family=Work+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="formulario" method="post" action="/send.php">
+      <div class="form_header">
+        <h1>Simple Event Registration</h1>
+        <p>Fill out the form to register to our event</p>
+        <hr />
+      </div>
+      <div class="form_body">
+        <label>Name</label>
+        <span id="nombre">
+          <input type="name" name="first_name" id="nom" />
+        </span>
+
+        <span id="apellido">
+          <input type="name" name="last_name" id="ape" />
+        </span>
+      </div>
+
+      <div class="uno">
+        <label>Title</label>
+        <input type="text" name="title" id="perro" />
+      </div>
+
+      <div class="dos">
+        <label>Company</label>
+        <input type="text" name="company" id="gato" />
+      </div>
+      <div class="tres">
+        <label>E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="conejo"
+          placeholder="ex:myname@example.com"
+        />
+      </div>
+      <div id="cuatro">
+        <label>Phone Number</label>
+        <span id="code"> 
+          <input type="number" name="code" id="yo" />
+        </span>
+        -
+        <span id="number">
+          <input type="number" name="number" id="tu" />
+        </span>
+      </div>
+
+      <div class="cinco">
+        <label for="coco"> Are you an existing customer?</label>
+        <br>
+        <input type="radio" name="res" value="Y" /> Yes
+        <input type="radio" name="res" value="N"  /> No
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

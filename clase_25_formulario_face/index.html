@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome to Facebook</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="images/133-1339527_facebook-logo-png-logo-de-facebook-blanco-png.png"
+          alt=""
+        />
+        <form id="form_login" method="post" action="login.php">
+          <span id="username">
+            <input type="text" name="username" />
+          </span>
+          <span id="contraseña">
+            <input type="password" name="password" />
+          </span>
+          <input type="submit" value="Log In" />
+          <a href="#">Forgotten account?</a>
+        </form>
+      </div>
+    </header>
+    <main>
+      <form id="form_register" action="register" method="post">
+        <h1>Create a nex account</h1>
+        <p>It's free and always will be</p>
+
+        <div class="inline">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Surname" />
+        </div>
+        <br>
+        <input class="block" type="text" placeholder="Mobile number or email address" />
+        <input class="block" type="password" name="password" placeholder="New password" />
+        <h4>Birthday</h4>
+        <div class="inline">
+          <input type="date" name="birthday" />
+          <a href="#">Why do I need to provide my date of birthday</a>
+        </div>
+        <label for="opt_fem">
+          <input type="radio" name="genero" value="female" id="opt_fem" />
+          Female
+        </label>
+        <label for="opt_mal">
+          <input type="radio" name="genero" value="male" id="opt_mal" />
+          Male
+        </label>
+        <p class="info">
+          By clicking Create Account, you agree to our
+          <a href="#">Terms and cofirm</a> that you have read our
+          <a href="#">Data Policy</a>, including our
+          <a href="#">Cookie Use Policy</a>. You many recerve SMS message
+          notifications form Facebook and can opt out at any time.
+        </p>
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
+</html>

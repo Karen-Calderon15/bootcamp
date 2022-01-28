@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', sans-serif;
+}
+form {
+    width: 500px;
+    height: 500px;
+    margin: 20px 20px;
+}
+.cinco, .form_body, .uno, .dos, .tres, .cuatro {
+    margin: 25px 0px;
+}
+span {
+    position: relative;
+}
+span::after {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    color: #808080;
+}
+#nombre::after {
+    content: "First Name";
+}
+#apellido::after {
+    content: "Last Name";
+}
+#code::after {
+    content: "Area Code";
+}
+#number::after  {
+    content: "Phone Number";
+}
+label {
+    font-weight: bold;
+}
+#yo {
+    margin: 0px 15px;
+    width: 75px;
+}
+#tu {
+    width: 130px;
+    margin: 0px 15px;
+}
+#perro  {
+    width:65%;
+    margin: 0px 37px;
+}
+#gato {
+    width:65%;
+}
+#conejo {
+    width: 65%;
+    margin: 0px 27px;
+}
+#nom {
+    margin: 0px 27px;
+    width: 105px;
+}
+#ape {
+    width: 185px;
+}
+button {
+    width: 75px;
+    margin: 15px 0px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+
+
+

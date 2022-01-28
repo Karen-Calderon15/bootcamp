@@ -1,0 +1,30 @@
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    filter: brightness(80%);
+}
+.btn-sm {
+    font-size: small;
+}
+.btn-xsm {
+    font-size: x-small;
+}
+.btn-xxsm {
+    font-size: xx-small;
+}
+.btn-m {
+    font-size: medium;
+}
+.btn-lg {
+    font-size: large;
+}
+.btn-xlg {
+    font-size: x-large;
+}
+.btn-xxlg {
+    font-size: xx-large;
+}

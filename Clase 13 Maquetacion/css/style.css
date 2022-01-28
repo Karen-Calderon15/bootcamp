@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #c0c0c0;
+}
+header {
+  width: 700px;
+  height: 250px;
+  background-color: #ffff00;
+}
+#banner {
+  width: 500px;
+  height: 250px;
+  background-color: #000000;
+  color: white;
+  text-align-last: center;
+  float: right;
+}
+
+#buscador {
+  height: 125px;
+  width: 200px;
+  float: left;
+  color: white;
+  text-align-last: center;
+  background-color: #4b0082;
+}
+#logo {
+  height: 125px;
+  width: 200px;
+  color: white;
+  text-align-last: center;
+  background-color: #e622b5;
+  float: left;
+}
+nav {
+  width: 700px;
+  height: 50px;
+  background-color: #9acd32;
+}
+main {
+    height: 400px;
+    width: 700px;
+    background-color: #ffc0cb;
+}
+#izquierda {
+  width: 150px;
+  height: 400px;
+  background-color: #0099ff;
+  float: left;
+}
+article {
+  width: 450px;
+  height: 400px;
+  background-color: #18cbe2;
+  float: left;
+}
+#derecha {
+  width: 100px;
+  height: 400px;
+  background-color: #00ff95;
+  float: left;
+}
+footer {
+    width: 700px;
+    height: 60px;
+    background-color: #008000;
+}
+#contenedor {
+    width: 700px;
+    height: 760px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: left;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    line-height: 50px;
+}

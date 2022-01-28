@@ -1,0 +1,15 @@
+#contenido *{
+    display: block;
+}
+strong:first-child {
+    background-color: #00ffff;
+}
+strong:last-child {
+    background-color: #008000;
+}
+strong:nth-child(2) {
+    background-color: hotpink;
+}
+strong:nth-last-child(2) {
+    background-color: khaki;
+}

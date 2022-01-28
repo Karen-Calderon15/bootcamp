@@ -1,0 +1,22 @@
+h1, h2, .text-danger {
+    color: #ff4060;
+}
+.sombra ~ section, p {
+    color: #0000ff;
+}
+section,footer {
+    box-shadow: #d3d1d1 5px 5px 5px 5px ;
+}
+ul > li {
+    color: #ecad00;
+} 
+ol {
+    color: #00a30e;
+}
+.text-success {
+    color: #008000;
+} 
+p > .badge-black {
+    color: #ffffff;
+    background-color: #000;
+}

@@ -1,0 +1,26 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #808080;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  /* height: 80vh; */
+  /* width: 200px; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+.item {
+  width: 50%;
+  height: 50px;
+  background-color: #1e90ff;
+  /* margin: 5px; */
+  border: 2px solid #000000;
+  /* font-size: x-large; */
+  /* color: #ffffff; */
+}

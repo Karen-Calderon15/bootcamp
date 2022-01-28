@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+form {
+  width: 100%;
+}
+.form_1 {
+  background-color: #4d6eaa;
+  height: 100px;
+  color: #ffffff;
+}
+h1 {
+  font-size: 75px;
+  padding: 50px 75px;
+  display: inline;
+}
+label {
+  padding-right: 150px;
+}
+span {
+  position: relative;
+  padding-right: 30px;
+}
+span::after {
+  position: absolute;
+  left: 0px;
+  top: -25px;
+}
+span::before {
+  position: absolute;
+  left: 0px;
+  top: 28px
+}
+#pass::before {
+  content: "Forgotten account?";
+}
+#email::after {
+  content: "Email or Phone";
+}
+#pass::after {
+  content: "Password";
+}
+
+button {
+  background-color: #5f80b5;
+  color: #ffffff;
+  border: none;
+  width: 85px;
+  height: 25px;
+  box-shadow: 2px 2px 5px #000000;
+}
+.form_2 {
+  background-color: #ecf0f2;
+  height: 813px;
+  padding-left: 45%;
+  padding-right: 30px;
+}
+h2 {
+  font-size: 50px;
+  padding-top: 30px;
+}
+p {
+  font-size: 30px;
+  padding-top: 15px;
+  color: #444444;
+}
+#cuatro {
+  width: 15%;
+  height: 30px;
+}
+#uno,
+#dos {
+  width: 40%;
+  display: inline;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 15px;
+  border: 1px solid #d4d4d4;
+}
+#tres {
+  width: 83%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 15px;
+  border: 1px solid #d4d4d4;
+}
+.d,
+.m,
+.a {
+  width: 15%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+h4 {
+  display: inline;
+  font-weight: normal;
+  color: #437fff;
+}
+#pastel {
+  margin: 20px 30px;
+  font-size: 25px;
+  padding-right: 50px;
+}
+#yo {
+  font-size: 25px;
+}
+a {
+  color: #437fff;
+  text-decoration: none;
+}
+#cup {
+  background-color: #72aa5e;
+  width: 40%;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 40px;
+  font-size: 20px;
+}

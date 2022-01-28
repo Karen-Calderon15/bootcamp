@@ -1,0 +1,26 @@
+a:link {
+    color: #008000;
+    font-weight: bold;
+}
+a:visited {
+    color: #800080;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #00ffff;
+    padding: 2px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+}
+div:hover a {
+    background-color: #4682b4;
+    color: #ffffff;
+}
+a:active, div:active {
+    border: 2px solid #ff0000;
+    padding: 2px;
+}

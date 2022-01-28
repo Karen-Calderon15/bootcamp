@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', sans-serif;
+}
+form {
+    width: 500px;
+    margin: 20px 20px;
+}
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 0px 15px;
+}
+input {
+    margin: 0px 15px;
+}
+legend >h2 {
+    color: #19199c;
+    margin: 0px 10px;
+}
+.uno, .tres, .dos {
+    margin: 15px 50px;
+}
+.cuatro {
+    margin: 15px 80px;
+}
+.cinco {
+    margin: 15px 42px;
+}
+.seis {
+    margin: 15px 101px;
+}
+.siete {
+    margin: 15px 65px;
+}
+#neg{
+    font-weight: bold;
+}

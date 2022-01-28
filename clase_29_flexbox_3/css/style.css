@@ -1,0 +1,28 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 5% 0;
+}
+.container {
+    background-color: steelblue;
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    align-content: space-around;
+    }
+    
+    
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid black;
+    box-sizing:border-box;
+    font-size: x-large;
+    color: white;
+}

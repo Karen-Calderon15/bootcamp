@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background-color: #ffffff;
+}
+body{
+    padding: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+div {
+    background-color: #b4b4b4;
+    width: 900px;
+    height: 700px;
+    margin: auto;
+}
+ article {
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px  #575757;
+} 
+h1 {
+    font-size: 35px;
+    padding: 20px 30px;
+}
+p {
+    margin-left: 100px ;
+    line-height: 40px;
+    font-size: 18px;
+}
+h2 {
+    margin-left: 200px;
+    line height: 40px; 
+    font-size: 20px;
+} 

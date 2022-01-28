@@ -1,0 +1,34 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  margin: 5% 0;
+}
+.container {
+  background-color: steelblue;
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+.contenedor_1 {
+  
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: x-large;
+  color: white;
+}
+.item:nth-child(6) {
+  height: auto;
+  align-self: stretch;
+  background-color: tomato;
+}

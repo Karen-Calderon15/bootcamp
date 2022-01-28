@@ -1,0 +1,129 @@
+@import url(vars.css);
+/*Colores de Fondo*/
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.bg-info{
+    background-color: var(--info-color);
+}
+.bg-dark{
+    background-color: var(--dark-color);
+}
+.bg-alt{
+    background-color: var(--alt-color);
+}
+/*Altos de Pantalla*/
+.h-10{
+    height: 10vh;
+}
+.h-25{
+    height: 25vh;
+}
+.h-50{
+    height: 50vh;
+}
+.h-100{
+    height: 100vh;
+}
+/*Flexbox Genericos*/
+.d-flex {
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+/*Bases Genericos*/
+.basis-15{
+    flex-basis: 15%;
+}
+.basis-25{
+    flex-basis: 25%;
+}
+.basis-30{
+    flex-basis: 30%;
+}
+.basis-50{
+    flex-basis: 50%;
+}
+.basis-75{
+    flex-basis: 75%;
+}
+/*Flex Genericos*/
+.flex-15 {
+    flex: 15;
+}
+.flex-20 {
+    flex: 20;
+}
+.flex-25 {
+    flex: 25;
+}
+.flex-50 {
+    flex: 50;
+}
+.flex-75 {
+    flex: 75;
+}
+.flex-60 {
+    flex: 60;
+}
+/*Grow y Shrink Genericos*/
+.grow-1{
+    flex-grow: 1;/*Crece*/
+}
+.grow-0{
+    flex-grow: 0;/*No Crece*/
+}
+.shrink-0{
+    flex-shrink: 0; /*No reajustar tamaño*/
+}
+/*ALINEACIONES PRINCIPALES*/
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+/*ALINEACIONES SECUNDARIAS*/
+.aling-items-center{
+    align-items: center;
+}
+.aling-items-end{
+    align-items: flex-end;
+}
+.aling-items-start{
+    align-items: flex-start;
+}
+   /*MARGENES Y PADDINGS*/
+
+   .pa-1{
+    padding:10px;
+}
+.pa-2{
+    padding:20px;
+}
+.ma-1{
+    margin: 10px;
+}
+.ma-2{
+    margin: 20px;
+}
+
+
+
+
